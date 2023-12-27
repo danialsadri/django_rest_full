@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}HomePage{% endblock %}
+
+{% block header_references %}
+    <link rel="stylesheet" href="{% static 'home/home.css' %}">
+{% endblock %}
+
+{% block content %}
+    <p class="user">Hello User</p>
+{% endblock %}

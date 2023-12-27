@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    {% include 'includes/header_references.html' %}
+    {% block header_references %}{% endblock %}
+</head>
+<body>
+
+{% block content %}{% endblock %}
+
+
+{% include 'includes/footer_references.html' %}
+{% block footer_references %}{% endblock %}
+</body>
+</html>
